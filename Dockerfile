@@ -22,7 +22,7 @@
 #  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 #  THE SOFTWARE.
 
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 RUN apt-get -y update && \
 	apt-get install -y curl wget make \
